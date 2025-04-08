@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:5173', 'https://amruta-makeup-feedback.netlify.app/','https://amrutaadmin.netlify.app/'];
+const allowedOrigins = ['http://localhost:5173', 'https://amruta-makeup-feedback.netlify.app','https://amrutaadmin.netlify.app/'];
 
 app.use(cors({
   origin: function (origin, callback) {
